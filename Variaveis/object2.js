@@ -16,7 +16,7 @@ console.log('\n lista de propriedades e valores ', Object.entries(user))
 //Mergerar (juntar) propridades dos objetos
 Object.assign(user,{fullName:'Julio Cesar Lemos'})
 console.log('\n Adiciona a propriedade fullname no objeto user', user)
-console.log('\n Retorna um novo objeto juntando dois ou mais obejetos', Object.assign({}, user, {age:26}))*/
+console.log('\n Retorna um novo objeto juntando dois ou mais obejetos', Object.assign({}, user, {age:26}))
 
 //Previne todas as alterações em uum objeto
 const newObj = {foo:'bar'}
@@ -31,7 +31,7 @@ console.log('\n Variavel newObj após alterações:', newObj)
 
 //Permite apenas a alteração de propriedades existentes em um objeto
 const person = {nome: 'Julio'}
-Object.seal(person)
+Object.seal(person)*/
 
 person.nome= 'Guilherme Lemos'
 delete person.nome
