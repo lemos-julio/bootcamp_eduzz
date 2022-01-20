@@ -1,6 +1,6 @@
 /* Iterarando e buscando elementos do array*/ 
 //foreach 
-/*  
+/*
 const frutas  = ['maça', 'banana' , 'uva', 'pera', 'melao' ]
 frutas.forEach(frutas => console.log(frutas))
 frutas.forEach((frutas,index) => console.log( frutas , index))
@@ -72,3 +72,18 @@ const someItem = [1,3,3,4,3]
 const someHasItem = someItem.some(z => z % 2 == 0)
 console.log(someHasItem)
 
+//Reverse = inverte elementos de um array
+const reverse = [1,2,3]
+const rev = reverse.reverse()
+console.log(rev)
+
+
+//Joi = junta elementos  de um array
+const joinItem = [1,2,3]
+let jj= joinItem.join('-')
+console.log(jj)
+
+//reduce = Retorna um novo tipo de dado iterano cada posição de um array
+const red = [1,2,3,4,5]
+let redResult = red.reduce((total, red)=>  total += red,0)
+console.log(redResult)
