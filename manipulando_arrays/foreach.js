@@ -87,3 +87,9 @@ console.log(jj)
 const red = [1,2,3,4,5]
 let redResult = red.reduce((total, red)=>  total += red,0)
 console.log(redResult)
+
+//Split
+const namesSp = 'Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand'
+var re = /\s*;\s*/;
+const nameList = namesSp.split(re)
+console.log(nameList)
