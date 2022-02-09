@@ -90,6 +90,6 @@ console.log(redResult)
 
 //Split
 const namesSp = 'Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand'
-var re = /\s*;\s*/;
+var re =/\s*;\s*/;
 const nameList = namesSp.split(re)
 console.log(nameList)
